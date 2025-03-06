@@ -1,0 +1,99 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #b3b1b0;
+    margin: 0;
+}
+
+.container {
+    background: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 
+        0 5px 10px rgba(0, 0, 0, 0.15),
+        0 10px 25px rgba(0, 0, 0, 0.3),
+        0 15px 40px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    width: 320px;
+}
+
+.judul {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.8em;
+    color: #eb8808;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+input {
+    width: 100%;
+    height: 60px;
+    text-align: right;
+    font-size: 2.2em;
+    outline: 5px solid #eb8808; 
+    border: none;
+    padding: 2px;
+    background: #b3b1b0;
+    border-radius: 10px;
+    font-weight: bold;
+    color: rgb(0, 0, 0)
+}
+
+button {
+    width: 65px;
+    height: 65px;
+    font-size: 1.5em;
+    border: none;
+    cursor: pointer;
+    background: #eb8808;
+    border-radius: 50%;
+    transition: all 0.2s;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 5px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background: #f5a623;
+}
+
+button:active {
+    box-shadow: inset 0 3px rgba(0, 0, 0, 0.3);
+    transform: translateY(3px);
+}
+
+td {
+    padding: 8px;
+}
+
+button:nth-child(4n) {
+    background: #ff9500;
+    color: white;
+}
+
+button:nth-child(4n):hover {
+    background: #e08900;
+}
+
+button.c{
+    background: #c2c1bf;
+}
+
+button.persen{
+    background: #c2c1bf;
+}
+
+button.zero{
+    background: #c2c1bf;
+}
+
+button.angka{
+    background: #6b6967;
+}
